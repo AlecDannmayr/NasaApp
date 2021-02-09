@@ -11,8 +11,14 @@
 <body>
     <script>
 
-    </script>
+        getData();
 
+        async function getData() {
+            const response = await fetch('data.csv')
+            const = data = await response.text();
+            console.log(data);
+        } 
+    </script>
 </body>
 
 </html>
